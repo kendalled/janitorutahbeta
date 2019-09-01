@@ -1,7 +1,6 @@
 /*
-	Frequency by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
+Janitor Utah
+
 */
 
 (function($) {
