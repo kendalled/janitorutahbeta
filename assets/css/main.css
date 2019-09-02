@@ -87,6 +87,12 @@ input, select, textarea {
   #marginme {
     margin-left: 5rem;
   }
+  #banner {
+    text-align: left !important;
+  }
+  #actionsSpecial {
+    max-width: 20.5em;
+  }
 }
 
 #fakelogo:hover {
@@ -121,7 +127,8 @@ input, select, textarea {
 		color: #777;
 		font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 		font-size: 13pt;
-		font-weight: 400;
+    font-weight: 400;
+    background: #555;
 		line-height: 1.65em;
 	}
 
@@ -2034,7 +2041,7 @@ input, select, textarea {
 		}
 
 		.box.alt {
-			border-radius: 0;
+			border-radius: 6px;
 			padding: 0;
 		}
 
@@ -2758,7 +2765,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 .box.alt header.major {
-				padding: 7em 1em 4em;
+				padding: 4em 1em 2em; 
 			}
 
 		.wrapper.style2 {
@@ -3054,8 +3061,9 @@ input, select, textarea {
 		background-size: cover;
 		color: #ffffff;
 		line-height: 1.75;
-		text-align: left;
-	}
+		text-align: center;
+  }
+  
 
 		#banner :last-child {
 			margin-bottom: 0;
